@@ -55,7 +55,8 @@ pkg_scaffolding="core/scaffolding-ruby"
 # An array of package dependencies needed at runtime. You can refer to packages
 # at three levels of specificity: `origin/package`, `origin/package/version`, or
 # `origin/package/version/release`.
-pkg_deps=( core/imagemagick )
+pkg_deps=( jcl_tryhabitat/imagemagick )
+# pkg_deps=( core/imagemagick )
 
 # Optional.
 # An array of the package dependencies needed only at build time.
